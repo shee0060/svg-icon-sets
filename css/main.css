@@ -20,5 +20,11 @@ body {
 }
 
 .icon .i-192 {
+  border-top: 3px rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+
+
 
 }
