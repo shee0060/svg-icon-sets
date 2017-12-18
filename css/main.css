@@ -19,6 +19,17 @@ body {
   border-color: #fff;
 }
 
+li:nth-child(2),
+li:last-child {
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
+}
+
 @media only screen and (min-width: 60em) {
+
+  li:nth-child(2),
+  li:last-child {
+    border-top: none;
+    border-left: 3px solid rgba(255, 255, 255, .5);
+  }
 
 }
